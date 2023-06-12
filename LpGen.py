@@ -2134,7 +2134,7 @@ if args.benchmark == 'loop-inv':
 
 elif args.benchmark == 'nla':
   degrees = nla_degrees
-  args.folder_path = '/benchmark/NLA Benchmark'
+  args.folder_path = '/benchmark/NLA_Benchmark'
 
 elif args.benchmark == 'zilu':
   degrees = zilu_degrees
