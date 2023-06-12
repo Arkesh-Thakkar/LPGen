@@ -2130,15 +2130,15 @@ svcomp_loop_inv = {'bin-suffix-5.csv': 1, 'const.csv': 1, 'eq1.csv': 1, 'eq2.csv
 
 if args.benchmark == 'loop-inv':
   degrees = svcomp_loop_inv
-  args.folder_path = '/benchmark/SV-Comp_loop_invariants_csv'
+  args.folder_path = './benchmark/SV-Comp_loop_invariants_csv'
 
 elif args.benchmark == 'nla':
   degrees = nla_degrees
-  args.folder_path = '/benchmark/NLA_Benchmark'
+  args.folder_path = './benchmark/NLA_Benchmark'
 
 elif args.benchmark == 'zilu':
   degrees = zilu_degrees
-  args.folder_path = '/benchmark/SVcomp-loop-zilu-csv'
+  args.folder_path = './benchmark/SVcomp-loop-zilu-csv'
 
 elif args.benchmark != None:
   raise Exception("Give proper benchmark name: nla/zilu/loop-inv")
