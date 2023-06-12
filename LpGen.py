@@ -2114,7 +2114,7 @@ parser.add_argument('-pre','--pre_condition', help = "Specify preconditions in z
 parser.add_argument('-ind','--inductive_condition', help = 'Specify inductive condition in z3 format ex: x >= y')
 parser.add_argument('-post','--post_condition', help = 'Specify Post condition in z3 format ex. And(x >= y)', default = 'True')
 parser.add_argument('-lc','--loop_condition', help='Specify loop condition as per z3 format ex. And(x>=y). If non-deterministic write unknown', default = 'unknown')
-parser.add_argument('-degree','--degree', help="Mention the degree upto which non-linear terms are to be generated", default = 2)
+parser.add_argument('-degree','--degree', type=int, help="Mention the degree upto which non-linear terms are to be generated", default = 2)
 
 
 args = parser.parse_args()
