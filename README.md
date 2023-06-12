@@ -24,3 +24,11 @@ Benchmark folder contains the csv that captured the value of variables of the pr
 --> Run the following command
     python LpGen.py -p="Path to your csv file" -fn="filename" -pre="pre conditon as per pyz3 format ex And(x>=y)" -ind="Inductive conditon as per pyz3 format ex And(x>=y)"
     -post="post conditon as per pyz3 format ex And(x>=y)" -lc="loop conditon as per pyz3 format ex And(x>=y). If undeterministic write unknown" -degree="Degree in int to check upto n degree polynomial"
+
+# Output
+It gives following 3 outputs:
+- Invariant that is generated and checked with Houdini algorithm
+- GCD invariant
+- Bitwise And invariant
+
+Here GCD invariant and Bitwise And invariant needs to be manually verified by the user as Z3 has no support to check GCD and Bitwise And takes longer times
