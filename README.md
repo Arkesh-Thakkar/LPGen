@@ -1,7 +1,7 @@
 # LPGen
 It is an automated invariant generation tool based on Linear Regression and Linear Programming.
 
-It has been tested on 3 SVCOMP benchmarks, namely NLA-digbench, loop-zilu, loop-invariants.
+It has been tested on 3 SVCOMP benchmarks, namely nla-digbench, loop-zilu, and loop-invariants.
 
 The Benchmark folder contains the CSV that captured the value of variables of the program at the loop head during different loop iterations.
 
