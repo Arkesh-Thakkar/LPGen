@@ -12,16 +12,16 @@ The Benchmark folder contains the CSV that captured the value of variables of th
 
 # To run benchmarks following are the steps.
 
---> Clone the repo
---> Go to the path of LpGen.py
---> Run the following command
+1) Clone the repo
+2) Go to the path of LpGen.py
+3) Run the following command
       python LpGen.py -b="Name of Benchmark: nla/zilu/loop-inv"
 
 # To run on your own csv files, perform the following steps:
 
---> Clone the Repo
---> Go to the path of LpGen.py
---> Run the following command
+1) Clone the Repo
+2) Go to the path of LpGen.py
+3) Run the following command
     python LpGen.py -p="Path to your csv file" -fn="filename" -pre="pre condition as per pyz3 format ex And(x>=y)" -ind="Inductive condition as per pyz3 format ex And(x>=y)"
     -post="post conditon as per pyz3 format ex And(x>=y)" -lc="loop conditon as per pyz3 format ex And(x>=y). If undeterministic write unknown" -degree="Degree in int to check upto n degree polynomial."
 
